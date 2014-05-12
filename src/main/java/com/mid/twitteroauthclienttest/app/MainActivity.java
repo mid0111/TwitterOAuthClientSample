@@ -16,17 +16,15 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         if (!TwitterUtils.hasAccessToken(this)) {
+            // Twitter認可されていない場合は、認可用の画面を表示
             Intent intent = new Intent(this, TwitterOAuthActivity.class);
             startActivity(intent);
             finish();
         }
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }

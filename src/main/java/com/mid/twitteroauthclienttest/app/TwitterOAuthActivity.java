@@ -30,12 +30,13 @@ public class TwitterOAuthActivity extends Activity {
         mCallbackURL = getString(R.string.twitter_callback_url);
         mTwitter = TwitterUtils.getTwitterInstance(this);
 
-        findViewById(R.id.buttonTOauth).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.buttonTOAuth).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startAuthorize();
             }
         });
+
     }
 
 
