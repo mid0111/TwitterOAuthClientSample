@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterOAuthClientTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_twitter_oauth">TwitterOAuthActivity</string>
+    <string name="twitterOauth">Twitter OAuth Test !!</string>
+    <string name="twitter_callback_url">mid://twitter</string>
+
+</resources>
